@@ -7,7 +7,6 @@ import express, {
 } from "express";
 import { config } from "dotenv";
 import cors from "cors";
-import createHttpError from "http-errors";
 
 config();
 
